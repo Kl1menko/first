@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.s1 {
+    background: #A3CFD8;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1235px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav a {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.nav a {
+    animation-duration: 0.7s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.nav a:hover {
+    color: #eef9fc;
+    background: #3A494C;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.logo a:hover {
+    filter: blur(1px);
+}
+
+.basis {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 70px 35px 35px 35px;
+}
+
+.basis h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 64px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.basis p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+    line-height: 33px;
+    padding-top: 25px;
+}
+
+img {
+    max-width: 100%
+    height: auto;
+}
+
+
+.circle {
+    margin-top: 65px;
+    padding-bottom: 30px;
+    text-align: center;    
+}
+
+.circle img {
+    padding: 5px;
+}
+
+
+.s2 {
+    font-family: 'Roboto Slab', serif;
+    background: #A3CFD8;
+}
+
+.about {
+    font-family: 'Roboto Slab', serif;
+    background-color: #A3CFD8;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 65px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.portfolio img {
+    width: 300px;
+    padding: 30px;
+    border-radius: 30%;
+}
+
+.portfolio img:hover {
+    -o-transform: translateY(-20px);
+	-ms-transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	-webkit-transform: translateY(-20px);
+	transform: translateY(-20px);
+}
+
+.s3 {
+    font-family: 'Roboto Slab', serif;
+    background: rgb(236, 235, 235);
+}
+
+.s3 h2 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.s3 p {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.skills-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 90px 10px;
+}
+
+.skills-main img:hover {
+    
+    box-shadow: 12px 12px 5px 5px rgba(12, 12, 12, 0.2);
+}
+
+.rating-result {
+	width: 265px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.rating-result span {
+	padding: 0;
+	font-size: 32px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: black;
+	text-shadow: 1px 1px #c60;
+}
+
+
+.s4 {
+    font-family: 'Roboto Slab', serif;
+    background: #A3CFD8;
+}
+
+.footer-main h2, p {
+    text-align: center;
+    padding: 5px;
+}
+
+.sand-me {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+.btn {
+    background: black;
+}
+
+.sand-me a {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: rgb(247, 241, 241);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-links a:hover {
+    filter: blur(1px);
+}
+
+
+@media screen and (min-width: 1060px){
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 80px;
+    }
+    
+    .basis {
+        flex-direction: row;
+        gap: 125px;
+        padding: 70px 35px 35px 35px;
+    }
+
+    .skills {
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 15px 15px 15px;
+    }
+    
+
+}
